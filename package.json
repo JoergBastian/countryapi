@@ -1,0 +1,16 @@
+{
+  "name": "countryapi",
+  "version": "1.0.0",
+  "description": "Normalizes Country Names",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "redis": "^2.8.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  }
+}
